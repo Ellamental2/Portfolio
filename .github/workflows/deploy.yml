@@ -34,7 +34,7 @@ jobs:
   deploy:
     name: Deploy
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latesthttps://github.com/Ellamental2/Portfolio/settings/pages
     if: github.ref == 'refs/heads/main'
 
     steps:
