@@ -1,8 +1,8 @@
 {
-  "homepage": "https://ellamental2.github.io/Portfolio/",
   "name": "portfolio",
-  "private": true,
   "version": "1.0.0",
+  "homepage": "https://ellamental2.github.io/Portfolio/",
+  "private": false,
   "type": "module",
   "scripts": {
     "dev": "vite",
