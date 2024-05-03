@@ -8,5 +8,6 @@ export default defineConfig({
     modules: {
       localConvention: 'camelCase',
     }
-  }
+  },
+  base: "/Portfolio/"
 })
