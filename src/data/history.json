@@ -1,0 +1,58 @@
+[
+    {
+        "role": "C# Developer",
+        "organisation": "EnergyOne Limited",
+        "startDate": "May 2024",
+        "endDate": "Present",
+        "responsibilities": [
+        ],
+        "achivements": [
+
+        ],
+        "imageSrc": "history/energyone.webp"
+    },
+    {
+        "role": ".NET Application Developer",
+        "organisation": "Aldi UK Ltd - National Applications",
+        "startDate": "May 2022",
+        "endDate": "May 2024",
+        "responsibilities": [
+            "Member of the national applications team, making use of C#, SQL, ASP.NET, SSRS and ServiceNow to deliver and maintain administrative applications for 200+ Internal Users",
+            "Mentored and developed new members of the support and testing section of the team"
+        ],
+        "acheivements": [
+            "Redeveloping legacy WinForms applications to make use of an API Infrastructure, which communicate between SAP and local servers, and front-end WPF applications.",
+            "Proficiently oversaw the successful administration of a dynamic price comparison tool, empowering users to streamline and propose impactful price changes with precision and efficiency.",
+            "Optimisation of SQL Stored Procedures and SSRS reports. Resulting in process time being reduced by 99%"
+        ],
+        "imageSrc": "history/aldi.png"
+    },
+    {
+        "role": "Buying Administration Assistant",
+        "organisation": "Aldi UK Ltd - Project Team",
+        "startDate": "August 2021",
+        "endDate": "May 2022",
+        "responsibilities": [
+            "Member of the team responsible for data cleansing legacy data in preparation for migration to an SAP HANA system"
+        ],
+        "acheivements": [
+            "Made use of Excel, and VB.NET to create tools to assist in data cleansing and string formatting.",
+            "Consistently surpassed KPIs"            
+        ],
+        "imageSrc": "history/aldi.png"
+    },
+    {
+        "role": "Pricing Analyst",
+        "organisation": "Opus Energy",
+        "startDate": "August 2021",
+        "endDate": "May 2022",
+        "responsibilities": [
+            "Making use of price analysis tools to provide bespoke energy prices for sales teams",
+            "Cost analyse customer information, usage and contracts for the customer care teams to evaluate potential resolutions."
+        ],
+        "acheivements": [
+            "Making use of Excel, VB.NET and SQL to optimize a cost analysis process reducing the time taken to complete the task by over 5000 work hours per year."            
+        ],
+        "imageSrc": "history/opus.png"
+    }
+]
