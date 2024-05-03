@@ -4,7 +4,7 @@
         "imgSrc": "projects/project.png",
         "description": "This website is a portfolio of my work, designed to showcase my skills and projects. I used HTML, CSS, and JavaScript to create this website, and I used Git version control (Github) to manage the project. I also used React as a framework for the web application.",
         "skills": ["HTML", "CSS", "JavaScript", "React", "Git", "Github"],
-        "demo": "",
+        "demo": "#",
         "source": "https://github.com/Ellamental2/Portfolio"
     },
     {
