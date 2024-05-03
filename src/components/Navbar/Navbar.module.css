@@ -28,6 +28,10 @@
     list-style: none;
 }
 
+.menuBtn {
+    display: none;
+}
+
 .menuItems a {
     font-size: 25px;
     color: var(--color-text);
