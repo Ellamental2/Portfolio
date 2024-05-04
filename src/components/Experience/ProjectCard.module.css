@@ -7,7 +7,8 @@
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
-  max-width: 345px;
+  max-width: 600px;
+  margin-bottom: 26px;
 }
 
 .image {
@@ -40,8 +41,18 @@
   font-weight: 400;
   border-radius: 100px;
   background: var(--color-dark);
-  padding: 2px 22px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.skill img{
+  width: 60%;  
+  align-self: center;
+}
+
 
 .links {
   width: 100%;

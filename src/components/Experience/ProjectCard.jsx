@@ -1,4 +1,4 @@
-import styles from "./ProjectCard.module.css";
+import {useState} from "react";import styles from "./ProjectCard.module.css";
 import { getImageUrl } from "../../utils";
 
 import PropTypes from "prop-types";
@@ -6,8 +6,16 @@ import PropTypes from "prop-types";
 export const ProjectCard = ({
   project: { title, imgSrc, description, skills, demo, source },
 }) => {
+  const [popup, setPopup] = useState(false);
+
+  const handlePopup = (title, imgSrc, description, skills, demo, source) => {
+      setPopup(true);
+      var project = {title, imgSrc, description, skills, demo, source}
+      console.log(popup, project);
+  };
+
   return (
-    <div className={styles.container}>
+    <div className={styles.container} onClick={() => handlePopup(title, imgSrc, description, skills, demo, source)}>
       <img
         src={getImageUrl(imgSrc)}
         alt={`Image of ${title}`}
@@ -19,7 +27,9 @@ export const ProjectCard = ({
         {skills.map((skill, id) => {
           return (
             <li key={id} className={styles.skill}>
-              {skill}
+              <img src={getImageUrl(skill.imageSrc)}
+              alt={skill.title}
+              tooltip={skill.title}/>
             </li>
           );
         })}

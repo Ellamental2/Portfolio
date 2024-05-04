@@ -55,10 +55,7 @@
 .heroImg {
     width: 50%;
     z-index: 1;
-    animation-name: floating;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    margin-top: 20px;
 }
 
 @media screen and (min-width: 831px) {
@@ -74,18 +71,6 @@
         order: 2;
         margin-left: 20px;
     }
-}
-
-@keyframes floating {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-  100% {
-    transform: translateY(-0);
-  }
 }
 
 .topBlur {

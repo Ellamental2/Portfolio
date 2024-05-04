@@ -4,9 +4,23 @@
         "organisation": "EnergyOne Limited",
         "startDate": "May 2024",
         "endDate": "Present",
+        "skills": [
+            {
+                "title": "C#",
+                "imageSrc": "skills/csharp.png"
+            },
+            {
+                "title": "Git",
+                "imageSrc": "skills/git.png"
+            },
+            {
+                "title": "Azure Devops",
+                "imageSrc": "skills/azure.webp"
+            }
+        ],
         "responsibilities": [
         ],
-        "achivements": [
+        "acheivements": [
 
         ],
         "imageSrc": "history/energyone.webp"
@@ -16,6 +30,49 @@
         "organisation": "Aldi UK Ltd - National Applications",
         "startDate": "May 2022",
         "endDate": "May 2024",
+        "skills": [
+            {
+                "title": "C#",
+                "imageSrc": "skills/csharp.png"
+            },
+            {
+                "title": "SQL",
+                "imageSrc": "skills/sql.png"
+            },
+            {
+                "title": "Git",
+                "imageSrc": "skills/git.png"
+            },
+            {
+                "title": "GitLab",
+                "imageSrc": "skills/gitlab.png"
+            },
+            {
+                "title": "Octopus Deploy",
+                "imageSrc": "skills/octopus.ico"
+            },
+            {
+                "title": "WPF",
+                "imageSrc": "skills/wpf.webp"
+            },
+            {
+                "title": "ASP.NET",
+                "imageSrc": "skills/aspnet.png"
+            },
+            {
+                "title": "SSRS",
+                "imageSrc": "skills/ssrs.png"
+            },
+            {
+                "title": "ServiceNow",
+                "imageSrc": "skills/snow.png"
+            },
+            {
+                "title": "winforms",
+                "imageSrc": "skills/winforms.png"
+            }
+            
+        ],
         "responsibilities": [
             "Member of the national applications team, making use of C#, SQL, ASP.NET, SSRS and ServiceNow to deliver and maintain administrative applications for 200+ Internal Users",
             "Mentored and developed new members of the support and testing section of the team"
@@ -32,6 +89,16 @@
         "organisation": "Aldi UK Ltd - Project Team",
         "startDate": "August 2021",
         "endDate": "May 2022",
+        "skills": [
+            {
+                "title": "VB.Net",
+                "imageSrc": "skills/vb.png"
+            },
+            {
+                "title": "SAP S/4 HANA",
+                "imageSrc": "skills/sap.png"
+            }
+        ],
         "responsibilities": [
             "Member of the team responsible for data cleansing legacy data in preparation for migration to an SAP HANA system"
         ],
@@ -46,6 +113,16 @@
         "organisation": "Opus Energy",
         "startDate": "August 2021",
         "endDate": "May 2022",
+        "skills": [
+            {
+                "title": "VB.Net",
+                "imageSrc": "skills/vb.png"
+            },
+            {
+                "title": "SQL",
+                "imageSrc": "skills/sql.png"
+            }
+        ],
         "responsibilities": [
             "Making use of price analysis tools to provide bespoke energy prices for sales teams",
             "Cost analyse customer information, usage and contracts for the customer care teams to evaluate potential resolutions."
