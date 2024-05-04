@@ -127,16 +127,32 @@
 
 
 @media screen and (max-width: 830px) {
+  .container {
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 350px;
+  }
+
   .content {
     flex-direction: column;
     align-items: center;
     gap: 34px;
   }
 
+  .projects{
+    margin-left: 0px;
+    min-width: none;
+  }
+
   .skills {
     width: 100%;
     flex-direction: row;
     justify-content: center;
+  }
+
+  .experience{    
+    margin-left: 0px;
   }
 
   .history {
