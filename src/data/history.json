@@ -20,6 +20,10 @@
             {   
                 "title": "Azure Devops",
                 "imageSrc": "skills/azure.webp"
+            },            
+            {
+                "title": "Octopus Deploy",
+                "imageSrc": "skills/octopus.ico"
             },
             {
                 "title": "Agile",

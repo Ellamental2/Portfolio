@@ -29,7 +29,7 @@ export const ProjectCard = ({
             <li key={id} className={styles.skill}>
               <img src={getImageUrl(skill.imageSrc)}
               alt={skill.title}
-              tooltip={skill.title}/>
+              title={skill.title}/>
             </li>
           );
         })}
