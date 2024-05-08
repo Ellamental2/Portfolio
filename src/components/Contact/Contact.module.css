@@ -30,6 +30,7 @@
   align-items: flex-start;
   list-style: none;
   gap: 26px;
+  z-index: 3;
 }
 
 .link {
@@ -40,10 +41,15 @@
 
 .link a {
   color: var(--color-text);
-  text-decoration: none;
   font-size: 30px;
+  text-decoration: none;
   font-weight: 400;
   letter-spacing: 1.5px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 26px;
 }
 
 @media screen and (max-width: 830px) {

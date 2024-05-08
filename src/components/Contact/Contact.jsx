@@ -10,19 +10,31 @@ export const Contact = () => {
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
-          <a href="mailto:ellam.fox@icloud.com">ellam.fox@icloud.com</a>
+          <a href="mailto:ellam.fox@icloud.com">
+            <img
+              src={getImageUrl("contact/emailIcon.png")}
+              alt="Email icon"
+            />
+            ellam.fox@icloud.com
+          </a>
         </li>
-        <li className={styles.link}>
-          <img
-            src={getImageUrl("contact/linkedinIcon.png")}
-            alt="LinkedIn icon"
-          />
-          <a href="https://www.linkedin.com/in/ellam-fox/">linkedin.com/ellam-fox/</a>
+        <li className={styles.link}>          
+          <a href="https://www.linkedin.com/in/ellam-fox/">
+            <img
+              src={getImageUrl("contact/linkedinIcon.png")}
+              alt="LinkedIn icon"
+            />
+            linkedin.com/in/ellam-fox/
+          </a>
         </li>
-        <li className={styles.link}>
-          <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://github.com/Ellamental2">github.com/Ellamental2</a>
+        <li className={styles.link}>          
+          <a href="https://www.github.com/Ellamental2">
+            <img
+              src={getImageUrl("contact/githubIcon.png")}
+              alt="Github icon"
+            />
+            github.com/Ellamental2
+          </a>
         </li>
       </ul>
     </footer>
