@@ -4,32 +4,40 @@
         "organisation": "EnergyOne Limited",
         "startDate": "May 2024",
         "endDate": "Present",
-        "skills": [
-            {
-                "title": "C#",
-                "imageSrc": "skills/csharp.png"
-            },
-            {
-                "title": "SQL",
-                "imageSrc": "skills/sql.png"
-            },
-            {
-                "title": "Git",
-                "imageSrc": "skills/git.png"
-            },
-            {   
-                "title": "Azure Devops",
-                "imageSrc": "skills/azure.webp"
-            },            
-            {
-                "title": "Octopus Deploy",
-                "imageSrc": "skills/octopus.ico"
-            },
-            {
-                "title": "Agile",
-                "imageSrc": "skills/agile.png"
-            }
-        ],
+      "skills": [
+        {
+          "title": "C#",
+          "imageSrc": "skills/csharp.png"
+        },
+        {
+          "title": "SQL",
+          "imageSrc": "skills/sql.png"
+        },
+        {
+          "title": "Git",
+          "imageSrc": "skills/git.png"
+        },
+        {
+          "title": "Azure Devops",
+          "imageSrc": "skills/azure.webp"
+        },
+        {
+          "title": "Octopus Deploy",
+          "imageSrc": "skills/octopus.ico"
+        },
+        {
+          "title": "Octopus Deploy",
+          "imageSrc": "skills/octopus.ico"
+        },
+        {
+          "title": "TeamCity",
+          "imageSrc": "skills/teamcity.png"
+        },
+        {
+          "title": "Agile",
+          "imageSrc": "skills/agile.png"
+        }
+      ],
         "responsibilities": [
             "Working on both core product and bespoke customer driven solutions within the energy trading sector",
             "Write clean, reliable, secure, and well tested code",
