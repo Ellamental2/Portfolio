@@ -20,14 +20,10 @@
             {   
                 "title": "Azure Devops",
                 "imageSrc": "skills/azure.webp"
-            },
+            },            
             {
-              "title": "Octopus Deploy",
-              "imageSrc": "skills/octopus.ico"
-            },
-            {
-              "title": "TeamCity",
-              "imageSrc": "skills/teamcity.png"
+                "title": "Octopus Deploy",
+                "imageSrc": "skills/octopus.ico"
             },
             {
                 "title": "Agile",
@@ -41,7 +37,6 @@
             "Adhere to best practice guidelines, engage in peer code reviews, and cultivate a robust understanding of the product and domain"
         ],
         "acheivements": [
-            "delivered an integration project which linked the EnergyOne UK application with the application of the French team. This meant that customer’s using both systems for reporting no longer needed to report trades in both systems, leading to more efficient workflows."
         ],
         "imageSrc": "history/energyone.webp"
     },
