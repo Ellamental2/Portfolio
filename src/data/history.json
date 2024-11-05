@@ -38,14 +38,15 @@
           "imageSrc": "skills/agile.png"
         }
       ],
-        "responsibilities": [
-            "Working on both core product and bespoke customer driven solutions within the energy trading sector",
-            "Write clean, reliable, secure, and well tested code",
-            "Resolve issues with a high degree of reliability, in an efficient manner, while minimizing regression in other areas",
-            "Adhere to best practice guidelines, engage in peer code reviews, and cultivate a robust understanding of the product and domain"
-        ],
-        "acheivements": [
-        ],
+      "responsibilities": [
+          "Working on both core product and bespoke customer driven solutions within the energy trading sector",
+          "Write clean, reliable, secure, and well tested code",
+          "Resolve issues with a high degree of reliability, in an efficient manner, while minimizing regression in other areas",
+          "Adhere to best practice guidelines, engage in peer code reviews, and cultivate a robust understanding of the product and domain"
+      ],
+      "acheivements": [
+          "Successfully delivered an integration project which linked the EnergyOne UK application with the application of the French team. This meant that customer’s using both systems for reporting no longer needed to report trades in both systems, leading to more efficient workflows."
+      ],
         "imageSrc": "history/energyone.webp"
     },
     {
