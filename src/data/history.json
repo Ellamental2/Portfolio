@@ -43,10 +43,10 @@
         }
       ],
       "responsibilities": [
-          "Working on both core product and bespoke customer driven solutions within the energy trading sector",
-          "Write clean, reliable, secure, and well tested code",
-          "Resolve issues with a high degree of reliability, in an efficient manner, while minimizing regression in other areas",
-          "Adhere to best practice guidelines, engage in peer code reviews, and cultivate a robust understanding of the product and domain"
+          "Working on both core product and bespoke customer driven solutions within the energy trading sector.",
+          "Write clean, reliable, secure, and well tested code.",
+          "Resolve issues with a high degree of reliability, in an efficient manner, while minimizing regression in other areas.",
+          "Adhere to best practice guidelines, engage in peer code reviews, and cultivate a robust understanding of the product and domain."
       ],
       "achievements": [
           "Successfully delivered an integration project which linked the EnergyOne UK application with the application of the French team. This meant that customer’s using both systems for reporting no longer needed to report trades in both systems, leading to more efficient workflows.",
@@ -103,13 +103,13 @@
             
         ],
         "responsibilities": [
-            "Member of the national applications team, making use of C#, SQL, ASP.NET, SSRS and ServiceNow to deliver and maintain administrative applications for 200+ Internal Users",
-            "Mentored and developed new members of the support and testing section of the team"
+            "Member of the national applications team, making use of C#, SQL, ASP.NET, SSRS and ServiceNow to deliver and maintain administrative applications for 200+ Internal Users.",
+            "Mentored and developed new members of the support and testing section of the team."
         ],
         "achievements": [
             "Redeveloping legacy WinForms applications to make use of an API Infrastructure, which communicate between SAP and local servers, and front-end WPF applications.",
             "Proficiently oversaw the successful administration of a dynamic price comparison tool, empowering users to streamline and propose impactful price changes with precision and efficiency.",
-            "Optimisation of SQL Stored Procedures and SSRS reports. Resulting in process time being reduced by 99%"
+            "Optimisation of SQL Stored Procedures and SSRS reports. Resulting in process time being reduced by 99%."
         ],
         "imageSrc": "history/aldi.png"
     },
@@ -129,7 +129,7 @@
             }
         ],
         "responsibilities": [
-            "Member of the team responsible for data cleansing legacy data in preparation for migration to an SAP HANA system"
+            "Member of the team responsible for data cleansing legacy data in preparation for migration to an SAP HANA system."
         ],
         "achievements": [
             "Made use of Excel, and VB.NET to create tools to assist in data cleansing and string formatting.",
@@ -153,7 +153,7 @@
             }
         ],
         "responsibilities": [
-            "Making use of price analysis tools to provide bespoke energy prices for sales teams",
+            "Making use of price analysis tools to provide bespoke energy prices for sales teams.",
             "Cost analyse customer information, usage and contracts for the customer care teams to evaluate potential resolutions."
         ],
         "achievements": [
