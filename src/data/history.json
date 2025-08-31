@@ -14,6 +14,14 @@
           "imageSrc": "skills/sql.png"
         },
         {
+            "title": "CSS",
+            "imageSrc": "skills/css.png"
+        },
+        {
+            "title": "JavaScript",
+            "imageSrc": "skills/js.png"
+        },
+        {
           "title": "Git",
           "imageSrc": "skills/git.png"
         },
