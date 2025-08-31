@@ -13,11 +13,15 @@ export const Hero = () => {
                 <p className={styles.description}>I&apos;ve been a full stack developer for {yearsDiff} years, leading innovative, progressive projects and managing stakeholder relationships. Skilled in C#, SQL and .NET, with interests in web development and automation. currently learning about mobile and cloud technologies as well as modern web architectures.</p>
                 <a className={styles.contactBtn} href="mailto:ellam.fox@icloud.com">Contact Me</a>
             </div>
-            <img
-                className={styles.heroImg}
-                src={getImageUrl("about/aboutImage.png")}
-                alt="hero-image"
-            />
+            <div className={styles.hero}>
+                <span className={styles.heroImageContainer}>
+                    <span
+                        className={styles.heroImg}
+                        style={{ backgroundImage: `url(${getImageUrl("about/ellamFox.png")})` }}
+                        alt="hero-image"
+                    ></span>
+                </span>
+            </div>
             <div className={styles.topBlur} />
             <div className={styles.bottomBlur} />
         </section>

@@ -8,6 +8,9 @@
   margin-top: 49px;
   z-index: 1;
   margin: 0 10%;
+  flex-direction: row;
+  
+  margin-top: 100px;
 }
 
 .content {
@@ -30,6 +33,7 @@
   );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  background-clip: text;
   z-index: 1;
 }
 
@@ -41,6 +45,7 @@
 }
 
 .contactBtn {
+  
   text-decoration: none;
   background-color: var(--color-primary);
   color: var(--color-text);
@@ -52,10 +57,46 @@
   z-index: 1;
 }
 
+.hero {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  overflow: visible;
+  margin-right: 20px;
+  margin-top:-30px;
+}
+
+/* Container for the image - the blob shape itself */
+.heroImageContainer {
+  position: relative;
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle at center, #576cbc, #132a53);
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  margin-top: 80px; /* Space for head to peek out */
+}
+
+/* Empty placeholder, not needed with this technique */
+.heroShape {
+  display: none;
+}
+
+/* Hero image contained within the blob shape */
 .heroImg {
-    width: 50%;
-    z-index: 1;
-    margin-top: 20px;
+  display: block;
+  width: 410px;
+  height: 480px; /* 80px taller than container */
+  margin-top: -80px; /* Offset by the extra height */
+  background-size: 410px auto; /* Ensure proper scaling */
+  background-position: center 15%; /* Focus on the face area */
+  background-repeat: no-repeat;
+  border-radius: 25% 70% 62% 25% / 25% 30% 70% 70%;
 }
 
 @media screen and (min-width: 831px) {
@@ -65,9 +106,10 @@
 
     .content {
         order: 1;
+        max-width: 60%;
     }
 
-    .heroImg {
+    .hero {
         order: 2;
         margin-left: 20px;
     }
@@ -104,14 +146,16 @@
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
+    margin-top: 40px; /* Less space at top on mobile */
   }
 
   .title {
     font-size: 42px;
+    margin-top: 20px; /* Space between hero and title */
   }
 
   .description {
-    font-size: 20px;;
+    font-size: 20px;
   }
 
   .content {
@@ -122,5 +166,25 @@
   .contactBtn {
     font-size: 20px;
     padding: 10px 20px;
+  }
+  
+  .heroImageContainer {
+    width: 260px;
+    height: 260px;
+    margin-top: 50px; /* Smaller space for mobile */
+  }
+  
+  .hero {
+    height: 350px;
+    margin-top: -10px;
+  }
+  
+  .heroImg {
+    width: 260px;
+    height: 310px; /* Taller than container */
+    margin-top: -50px;
+    background-size: 260px auto; /* Ensure image scales properly */
+    background-position: center top; /* Position to show face */
+    border-radius: 25% 70% 53% 25% / 25% 30% 70% 70%; /* Adjusted for smaller size */
   }
 }
