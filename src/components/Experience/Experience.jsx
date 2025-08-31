@@ -45,11 +45,11 @@ export const Experience = () => {
                                                     </ul>
                                                 </>
                                             )}
-                                            {job.acheivements.length > 0 && (
+                                            {job.achievements.length > 0 && (
                                                 <>
                                                     <h3>Key Achievements</h3>
                                                     <ul className={styles.responsibilities}>
-                                                        {job.acheivements.map((achievement, id) => {
+                                                        {job.achievements.map((achievement, id) => {
                                                             return (
                                                                 <li key={id}>{achievement}</li>
                                                             );

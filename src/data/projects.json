@@ -1,5 +1,42 @@
 [
     {
+        "title": "RotationMaster",
+        "imgSrc": "projects/rotationmaster.png",
+        "description": "In my spare time, I enjoy playing video games such as the popular MMORPG Runescape. Whilst learning some of the more complex aspects of the game, I realised that there was a gap for a plugin which enabled players to have an on screen cheat sheet for the order to activate abilities. I thought this would be useful so decided to make it. This app is currently used by hundreds of users daily.",
+        "skills": [
+            {
+                "title": "HTML",
+                "imageSrc": "skills/html.png"
+            },
+            {
+                "title": "CSS",
+                "imageSrc": "skills/css.png"
+            },
+            {
+                "title": "Angular",
+                "imageSrc": "skills/angular.png"
+            },
+            {
+                "title": "TypeScript",
+                "imageSrc": "skills/ts.png"
+            },
+            {
+                "title": "React",
+                "imageSrc": "skills/react.png"
+            },
+            {
+                "title": "Git",
+                "imageSrc": "skills/git.png"
+            },
+            {
+                "title": "Github",
+                "imageSrc": "skills/github.png"
+            }
+        ],
+        "demo": "https://ellamental2.github.io/RotationMaster/",
+        "source": "https://github.com/Ellamental2/RotationMaster"
+    },
+    {
         "title": "Portfolio Website",
         "imgSrc": "projects/project.png",
         "description": "This website is a portfolio of my work, designed to showcase my skills and projects. I used HTML, CSS, and JavaScript to create this website, and I used Git version control (Github) to manage the project. I also used React as a framework for the web application.",

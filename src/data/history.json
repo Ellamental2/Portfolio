@@ -44,8 +44,9 @@
           "Resolve issues with a high degree of reliability, in an efficient manner, while minimizing regression in other areas",
           "Adhere to best practice guidelines, engage in peer code reviews, and cultivate a robust understanding of the product and domain"
       ],
-      "acheivements": [
-          "Successfully delivered an integration project which linked the EnergyOne UK application with the application of the French team. This meant that customer’s using both systems for reporting no longer needed to report trades in both systems, leading to more efficient workflows."
+      "achievements": [
+          "Successfully delivered an integration project which linked the EnergyOne UK application with the application of the French team. This meant that customer’s using both systems for reporting no longer needed to report trades in both systems, leading to more efficient workflows.",
+          "Taking initiative to improve the css styling to greatly modernise and improve the User Interface, by implementing a new design system and replacing unnecessary image files with css resources."
       ],
         "imageSrc": "history/energyone.webp"
     },
@@ -101,7 +102,7 @@
             "Member of the national applications team, making use of C#, SQL, ASP.NET, SSRS and ServiceNow to deliver and maintain administrative applications for 200+ Internal Users",
             "Mentored and developed new members of the support and testing section of the team"
         ],
-        "acheivements": [
+        "achievements": [
             "Redeveloping legacy WinForms applications to make use of an API Infrastructure, which communicate between SAP and local servers, and front-end WPF applications.",
             "Proficiently oversaw the successful administration of a dynamic price comparison tool, empowering users to streamline and propose impactful price changes with precision and efficiency.",
             "Optimisation of SQL Stored Procedures and SSRS reports. Resulting in process time being reduced by 99%"
@@ -126,7 +127,7 @@
         "responsibilities": [
             "Member of the team responsible for data cleansing legacy data in preparation for migration to an SAP HANA system"
         ],
-        "acheivements": [
+        "achievements": [
             "Made use of Excel, and VB.NET to create tools to assist in data cleansing and string formatting.",
             "Consistently surpassed KPIs"            
         ],
@@ -151,7 +152,7 @@
             "Making use of price analysis tools to provide bespoke energy prices for sales teams",
             "Cost analyse customer information, usage and contracts for the customer care teams to evaluate potential resolutions."
         ],
-        "acheivements": [
+        "achievements": [
             "Making use of Excel, VB.NET and SQL to optimize a cost analysis process reducing the time taken to complete the task by over 5000 work hours per year."            
         ],
         "imageSrc": "history/opus.png"
