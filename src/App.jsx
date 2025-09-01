@@ -5,11 +5,13 @@ import { Experience } from './components/Experience/Experience';
 import { Contact } from './components/Contact/Contact';
 
 function App() {
-  return <div className={styles.App}>
+  return <div className={styles.App} role="application">
     <Navbar />
-    <Hero />
-    <Contact />
-    <Experience />
+    <main role="main">
+      <Hero />
+      <Contact />
+      <Experience />
+    </main>
   </div>;
 }
 

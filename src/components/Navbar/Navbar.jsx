@@ -15,27 +15,36 @@ export const Navbar = () => {
     };
 
     return (
-        <nav className={styles.navbar}> 
-            <a className={styles.title} href="/">Ellam Fox</a>
+        <nav className={styles.navbar} role="navigation" aria-label="Main navigation"> 
+            <a className={styles.title} href="/" role="banner">Ellam Fox</a>
             <div className={styles.menu}>
-                <img
+                <button 
                     className={styles.menuBtn}
-                    src={
-                        menuOpen
-                            ? getImageUrl("nav/closeIcon.png")
-                            : getImageUrl("nav/menuIcon.png")
-                    }
-                    alt="menu-button"
+                    aria-expanded={menuOpen}
+                    aria-controls="navMenu"
+                    aria-label={menuOpen ? "Close menu" : "Open menu"}
                     onClick = {() => setMenuOpen(!menuOpen)}
-                />
-                <ul
-                    className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
                 >
-                    <li>
-                        <a href="#contact" onClick={(e) => handleLinkClick(e, 'contact')}>Contact</a>
+                    <img
+                        src={
+                            menuOpen
+                                ? getImageUrl("nav/closeIcon.png")
+                                : getImageUrl("nav/menuIcon.png")
+                        }
+                        alt=""
+                        aria-hidden="true"
+                    />
+                </button>
+                <ul
+                    id="navMenu"
+                    className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
+                    role="menu"
+                >
+                    <li role="none">
+                        <a href="#contact" onClick={(e) => handleLinkClick(e, 'contact')} role="menuitem">Contact</a>
                     </li>
-                    <li>
-                        <a href="#experience" onClick={(e) => handleLinkClick(e, 'experience')}>Experience</a>
+                    <li role="none">
+                        <a href="#experience" onClick={(e) => handleLinkClick(e, 'experience')} role="menuitem">Experience</a>
                     </li>
                 </ul>
             </div>
