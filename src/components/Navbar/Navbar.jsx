@@ -5,6 +5,15 @@ import {getImageUrl} from "../../utils";
 export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
+    const handleLinkClick = (e, targetId) => {
+        e.preventDefault();
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+        }
+        setMenuOpen(false);
+    };
+
     return (
         <nav className={styles.navbar}> 
             <a className={styles.title} href="/">Ellam Fox</a>
@@ -21,13 +30,12 @@ export const Navbar = () => {
                 />
                 <ul
                     className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
-                    onClick={() => setMenuOpen(false)}
                 >
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a href="#contact" onClick={(e) => handleLinkClick(e, 'contact')}>Contact</a>
                     </li>
                     <li>
-                        <a href="#experience">Experience</a>
+                        <a href="#experience" onClick={(e) => handleLinkClick(e, 'experience')}>Experience</a>
                     </li>
                 </ul>
             </div>
