@@ -30,6 +30,10 @@
 
 .menuBtn {
     display: none;
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
 }
 
 .menuItems a {
@@ -57,6 +61,9 @@
     .menuBtn {
         display: block;
         cursor: pointer;
+        background: transparent;
+        border: none;
+        padding: 0;
     }
 
     .menuItems {

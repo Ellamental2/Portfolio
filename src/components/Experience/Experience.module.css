@@ -28,6 +28,60 @@
   margin-top: 14px;
 }
 
+/* Job menu styles */
+.jobMenu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Mobile Projects Button - Hidden by default */
+.mobileProjectsButton {
+  display: none !important;
+  /* Inherits all styles from jobMenuItem */
+  margin-top: 5px;
+}
+
+.jobMenuItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(25, 55, 109, 0.5);
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 100px;
+  color: var(--color-text);
+  z-index: 3;
+}
+
+.jobMenuItem:hover {
+  background: rgba(25, 55, 109, 0.8);
+}
+
+/* Removed activeJob style */
+
+.jobMenuImage {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-bottom: 5px;
+}
+
+.jobMenuTitle {
+  font-size: 12px;
+  text-align: center;
+  color: var(--color-text);
+}
+
+/* Removed activeHistoryItem style */
+
 .projects {
   gap: 30px;
   min-width: 35%;
@@ -135,7 +189,9 @@ li {
     margin-top: 50px;
     margin-left: 5%;
     margin-right: 5%;
-    max-width: 350px;
+    width: 90%; /* Use percentage width instead of fixed max-width */
+    max-width: 100%;
+    overflow-x: hidden;
   }
 
   .content {
@@ -144,9 +200,63 @@ li {
     gap: 34px;
   }
 
-  .projects{
+  .experience {    
+    margin-left: 0px;
+    order: 1; /* Show experience first on mobile */
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .projects {
     margin-left: 0px;
     min-width: none;
+    order: 2; /* Show projects second on mobile */
+  }
+  
+  .jobMenu {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .jobMenuItem {
+    width: 100%;
+    min-width: auto;
+    max-width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    box-sizing: border-box; /* Include padding in width calculation */
+    word-break: break-word; /* Allow long text to wrap */
+  }
+  
+  .jobMenuImage {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 0;
+    margin-right: 15px;
+  }
+  
+  .jobMenuTitle {
+    font-size: 14px;
+    word-break: break-word; /* Allow long titles to wrap */
+    max-width: calc(100% - 45px); /* Leave space for the image */
+  }
+  
+  /* Show the mobile projects button on mobile only */
+  .mobileProjectsButton {
+    display: flex; /* Match jobMenuItem display */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 100px;
+    color: var(--color-text);
   }
 
   .skills {

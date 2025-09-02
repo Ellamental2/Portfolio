@@ -7,9 +7,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 100vw;
+  width: 100%; /* Changed from 100vw to 100% */
   padding: 58px 10%;
   gap: 10px;
+  overflow: hidden;
+  box-sizing: border-box; /* Ensure padding is included in width */
 }
 
 .text h2 {

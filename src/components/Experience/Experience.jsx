@@ -1,3 +1,4 @@
+import { useState } from "react";
 import styles from "./Experience.module.css";
 import history from '../../data/history.json';
 import projects from "../../data/projects.json";
@@ -5,25 +6,90 @@ import { getImageUrl } from '../../utils';
 import { ProjectCard } from "./ProjectCard";
 
 export const Experience = () => {
+    const [activeJobIndex, setActiveJobIndex] = useState(0);
+    
+    const scrollToJob = (index) => {
+        setActiveJobIndex(index);
+        const jobElement = document.getElementById(`job-${index}`);
+        if (jobElement) {
+            jobElement.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+    
+    const scrollToProjects = () => {
+        const projectsElement = document.getElementById('projectsTitle');
+        if (projectsElement) {
+            projectsElement.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
     
     return (
         <section id="experience" className={styles.container} role="region" aria-labelledby="experienceTitle projectsTitle">
             <div className={styles.content}>
+                {/* Projects section */}
                 <div className={styles.projects}>
-                <h2 className={styles.title} id="projectsTitle">Projects</h2>
+                    <h2 className={styles.title} id="projectsTitle">Projects</h2>
                     <div className={styles.projectCards} role="list">
                         {projects.map((project, id) => {
                             return <ProjectCard key={id} project={project} />;
                         })}
                     </div>
                 </div>
+                
+                {/* Experience section */}
                 <div className={styles.experience}>
                     <h2 className={styles.title} id="experienceTitle">Experience</h2>
+                    
+                    {/* Job navigation menu */}
+                    <div className={styles.jobMenu} role="tablist" aria-label="Job history navigation">
+                        {history.map((job, index) => (
+                            <button 
+                                key={index}
+                                className={styles.jobMenuItem}
+                                onClick={() => scrollToJob(index)}
+                                role="tab"
+                                aria-selected={index === activeJobIndex}
+                                aria-controls={`job-${index}`}
+                            >
+                                <img 
+                                    src={getImageUrl(job.imageSrc)} 
+                                    alt="" 
+                                    aria-hidden="true" 
+                                    className={styles.jobMenuImage}
+                                />
+                                <span className={styles.jobMenuTitle}>{job.role}</span>
+                            </button>
+                        ))}
+                    
+                        {/* Projects button - only visible on mobile */}
+                        <button 
+                            className={`${styles.jobMenuItem} ${styles.mobileProjectsButton}`}
+                            onClick={scrollToProjects}
+                            aria-label="View Projects Section"
+                            role="tab"
+                        >
+                            <img
+                                src={getImageUrl("hero/heroImage.png")}
+                                alt=""
+                                aria-hidden="true"
+                                className={styles.jobMenuImage}
+                            />
+                            <span className={styles.jobMenuTitle}>Personal Projects</span>
+                        </button>
+                    
+                    </div>
+
                     <ul className={styles.history} role="list">
                         {
                             history.map((job, id) => {
                                 return (
-                                    <li key={id} className={styles.historyItem} role="listitem">
+                                    <li 
+                                        key={id} 
+                                        id={`job-${id}`}
+                                        className={styles.historyItem} 
+                                        role="tabpanel"
+                                        aria-labelledby={`job-tab-${id}`}
+                                    >
                                         <div className={styles.historyItemDetails}>
                                             <div className={styles.historyItemHeader}>
                                                 <img 

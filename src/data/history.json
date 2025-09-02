@@ -49,7 +49,7 @@
           "Adhere to best practice guidelines, engage in peer code reviews, and cultivate a robust understanding of the product and domain."
       ],
       "achievements": [
-          "Successfully delivered an integration project which linked the EnergyOne UK application with the application of the French team. This meant that customer’s using both systems for reporting no longer needed to report trades in both systems, leading to more efficient workflows.",
+          "Successfully delivered an integration project which linked the EnergyOne UK application with the application of the French team. This meant that customers using both systems for reporting no longer needed to report trades in both systems, leading to more efficient workflows.",
           "Taking initiative to improve the css styling to greatly modernise and improve the User Interface, by implementing a new design system and replacing unnecessary image files with css resources."
       ],
         "imageSrc": "history/energyone.webp"

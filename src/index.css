@@ -4,3 +4,8 @@
   padding: 0;
   font-family: "Outfit", Arial, Helvetica, sans-serif;
 }
+
+html, body {
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  max-width: 100%; /* Ensure no content is wider than the viewport */
+}

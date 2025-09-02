@@ -127,6 +127,7 @@
   background: rgba(25, 55, 109, 0.7);
   filter: blur(100px);
   z-index: 0;
+  pointer-events: none; /* Prevents the element from intercepting mouse events */
 }
 
 .bottomBlur {
@@ -141,6 +142,7 @@
   background: rgba(25, 55, 109, 0.7);
   filter: blur(100px);
   z-index: 0;
+  pointer-events: none; /* Prevents the element from intercepting mouse events */
 }
 
 @media screen and (max-width: 830px) {
