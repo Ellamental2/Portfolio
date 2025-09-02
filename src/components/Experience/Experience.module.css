@@ -252,7 +252,7 @@ li {
   
   /* Show the mobile projects button on mobile only */
   .mobileProjectsButton {
-    display: flex; /* Match jobMenuItem display */
+    display: flex !important; /* Match jobMenuItem display */
     cursor: pointer;
     transition: all 0.3s ease;
     min-width: 100px;
