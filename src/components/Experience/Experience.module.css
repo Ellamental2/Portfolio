@@ -109,6 +109,7 @@
 .historyItem img {
   align-self: flex-start; /* Align the img at the top */
   width: 50px;
+  z-index: 1;
 }
 
 .historyItemHeader {

@@ -6,16 +6,28 @@
         "endDate": "Present",
       "skills": [
         {
+            "title":"Angular",
+            "imageSrc":"skills/angular.png"
+        },
+        {
+            "title":"TypeScript",
+            "imageSrc":"skills/ts.png"
+        },
+        {
+            "title": "HTML",
+            "imageSrc": "skills/html.png"
+        },
+        {
+            "title": "CSS",
+            "imageSrc": "skills/css.png"
+        },
+        {
           "title": "C#",
           "imageSrc": "skills/csharp.png"
         },
         {
           "title": "SQL",
           "imageSrc": "skills/sql.png"
-        },
-        {
-            "title": "CSS",
-            "imageSrc": "skills/css.png"
         },
         {
             "title": "JavaScript",
@@ -46,11 +58,13 @@
           "Working on both core product and bespoke customer driven solutions within the energy trading sector.",
           "Write clean, reliable, secure, and well tested code.",
           "Resolve issues with a high degree of reliability, in an efficient manner, while minimizing regression in other areas.",
-          "Adhere to best practice guidelines, engage in peer code reviews, and cultivate a robust understanding of the product and domain."
+          "Adhere to best practice guidelines, engage in peer code reviews, and cultivate a robust understanding of the product and domain.",
+          "Working closely with other developers and integrating with international teams, to ensure a high level of product knowledge and integration between systems."
       ],
       "achievements": [
           "Successfully delivered an integration project which linked the EnergyOne UK application with the application of the French team. This meant that customers using both systems for reporting no longer needed to report trades in both systems, leading to more efficient workflows.",
-          "Taking initiative to improve the css styling to greatly modernise and improve the User Interface, by implementing a new design system and replacing unnecessary image files with css resources."
+          "Taking initiative to improve the css styling to greatly modernise and improve the User Interface, by implementing a new design system and replacing unnecessary image files with css resources.",
+          "Spearheading the transition from webforms to a modern Angular front-end, improving both performance, user experience and integration with other applications within the global business. This has included travelling to other countries to work alongside other front-end developers as well as meeting with UI/UX stakeholders regularly to ensure high quality and consitency across the applications."
       ],
         "imageSrc": "history/energyone.webp"
     },
