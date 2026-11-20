@@ -2,7 +2,7 @@
     {
         "title": "RotationMaster",
         "imgSrc": "projects/rotationmaster.png",
-        "description": "In my spare time, I enjoy playing video games such as the popular MMORPG Runescape. Whilst learning some of the more complex aspects of the game, I realised that there was a gap for a plugin which enabled players to have an on screen cheat sheet for the order to activate abilities. I thought this would be useful so decided to make it. This app is was used by hundreds of users daily, and has now been implemented as an official plugin in the game.",
+        "description": "In my spare time, I enjoy playing video games such as the popular MMORPG Runescape. Whilst learning some of the more complex aspects of the game, I realised that there was a gap for a plugin which enabled players to have an on screen cheat sheet for the order to activate abilities. I thought this would be useful so decided to make it. This app is was used by hundreds of users daily, and has now been implemented as an official plugin in the game with thousands of downloads.",
         "skills": [
             {
                 "title": "lua",
