@@ -2,8 +2,12 @@
     {
         "title": "RotationMaster",
         "imgSrc": "projects/rotationmaster.png",
-        "description": "In my spare time, I enjoy playing video games such as the popular MMORPG Runescape. Whilst learning some of the more complex aspects of the game, I realised that there was a gap for a plugin which enabled players to have an on screen cheat sheet for the order to activate abilities. I thought this would be useful so decided to make it. This app is currently used by hundreds of users daily.",
+        "description": "In my spare time, I enjoy playing video games such as the popular MMORPG Runescape. Whilst learning some of the more complex aspects of the game, I realised that there was a gap for a plugin which enabled players to have an on screen cheat sheet for the order to activate abilities. I thought this would be useful so decided to make it. This app is was used by hundreds of users daily, and has now been implemented as an official plugin in the game.",
         "skills": [
+            {
+                "title": "lua",
+                "imageSrc": "skills/lua.png"
+            },
             {
                 "title": "HTML",
                 "imageSrc": "skills/html.png"
@@ -33,7 +37,7 @@
                 "imageSrc": "skills/github.png"
             }
         ],
-        "demo": "https://ellamental2.github.io/RotationMaster/",
+        "demo": "https://mod.io/g/runescape/m/rotation-master",
         "source": "https://github.com/Ellamental2/RotationMaster"
     },
     {
@@ -48,6 +52,14 @@
             {
                 "title": "CSS",
                 "imageSrc": "skills/css.png"
+            },            
+            {
+                "title": "Angular",
+                "imageSrc": "skills/angular.png"
+            },
+            {
+                "title": "TypeScript",
+                "imageSrc": "skills/ts.png"
             },
             {
                 "title": "JavaScript",
@@ -68,6 +80,35 @@
         ],
         "demo": "#",
         "source": "https://github.com/Ellamental2/Portfolio"
+    },
+    {
+        "title": "Legacy Lau Gar Website Development",
+        "imgSrc": "projects/legacy.png",
+        "description": "I provide technical support to the Kung Fu club I attend, writing a static HTML Website for the club to advertise to potential new members and provide session information to current members.",
+        "skills": [
+            {
+                "title": "HTML",
+                "imageSrc": "skills/html.png"
+            },
+            {
+                "title": "CSS",
+                "imageSrc": "skills/css.png"
+            },
+            {
+                "title": "JavaScript",
+                "imageSrc": "skills/js.png"
+            },
+            {
+                "title": "Git",
+                "imageSrc": "skills/git.png"
+            },
+            {
+                "title": "Github",
+                "imageSrc": "skills/github.png"
+            }
+        ],
+        "demo": "https://www.legacylaugar.com",
+        "source": "https://github.com/Ellamental2/LegacyLauGarWebsite"
     },
     {
         "title": "Pokemon Tabletop Reunited, Foundry Virtual TableTop System",
@@ -101,34 +142,5 @@
         ],
         "demo": "",
         "source": "https://github.com/dylanpiera/Foundry-Pokemon-Tabletop-United-System"
-    },
-    {
-        "title": "Legacy Lau Gar Website Development",
-        "imgSrc": "projects/legacy.png",
-        "description": "I provide technical support to the Kung Fu club I attend, writing a static HTML Website for the club to advertise to potential new members and provide session information to current members.",
-        "skills": [
-            {
-                "title": "HTML",
-                "imageSrc": "skills/html.png"
-            },
-            {
-                "title": "CSS",
-                "imageSrc": "skills/css.png"
-            },
-            {
-                "title": "JavaScript",
-                "imageSrc": "skills/js.png"
-            },
-            {
-                "title": "Git",
-                "imageSrc": "skills/git.png"
-            },
-            {
-                "title": "Github",
-                "imageSrc": "skills/github.png"
-            }
-        ],
-        "demo": "https://www.legacylaugar.com",
-        "source": "https://github.com/Ellamental2/LegacyLauGarWebsite"
     }
 ]
